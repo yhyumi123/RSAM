@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: Please cite the RSAM paper when using this implementation.
+title: 'RSAM: Anatomy-Aware MR-Imaging-Only Radiotherapy'
+type: software
+authors:
+- family-names: Yang
+  given-names: Hao
+repository-code: https://github.com/yhyumi123/RSAM
+preferred-citation:
+  type: article
+  title: Anatomy-Aware MR-Imaging-Only Radiotherapy
+  authors:
+  - family-names: Yang
+    given-names: Hao
+  - family-names: Sun
+    given-names: Yue
+  - family-names: Xie
+    given-names: Hui
+  - family-names: Zhao
+    given-names: Lina
+  - family-names: Lam
+    given-names: Chi Kin
+  - family-names: Zhao
+    given-names: Qiang
+  - family-names: Xiong
+    given-names: Xiangyu
+  - family-names: Cai
+    given-names: Kunyan
+  - family-names: Dashtbozorg
+    given-names: Behdad
+  - family-names: Yan
+    given-names: Chenggang
+  - family-names: Tan
+    given-names: Tao
+  journal: IEEE Transactions on Image Processing
+  volume: 35
+  start: 1680
+  end: 1695
+  year: 2026
+  doi: 10.1109/TIP.2026.3658010

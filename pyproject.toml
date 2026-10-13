@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsam-mrct"
+version = "0.1.0"
+description = "Region-specific attention for multi-region MR-to-CT synthesis"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Hao Yang and RSAM contributors"}]
+dependencies = [
+  "torch>=2.8,<2.9", "torchvision>=0.23,<0.24", "numpy>=1.24", "scipy>=1.10",
+  "nibabel>=5.1", "PyYAML>=6", "matplotlib>=3.7", "Pillow>=9.5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "build>=1"]
+torchio = ["torchio==0.20.22"]
+
+[project.scripts]
+rsam = "rsam.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.urls]
+Paper = "https://doi.org/10.1109/TIP.2026.3658010"
+Repository = "https://github.com/yhyumi123/RSAM"

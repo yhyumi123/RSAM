@@ -1,0 +1,5 @@
+case_id,patient_id,ct_patient_id,region,split,paired,mr,ct
+brain_train,subject_a,subject_a,brain,train,true,data/brain_train_mr.nii.gz,data/brain_train_ct.nii.gz
+pelvis_train,subject_b,subject_b,pelvis,train,true,data/pelvis_train_mr.nii.gz,data/pelvis_train_ct.nii.gz
+abdomen_train,subject_c,subject_d,abdomen,train,false,data/abdomen_train_mr.nii.gz,data/abdomen_train_ct.nii.gz
+brain_test,subject_e,,brain,test,false,data/brain_test_mr.nii.gz,
